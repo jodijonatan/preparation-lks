@@ -9,6 +9,6 @@ $connection = mysqli_connect($server, $username, $password, $database);
 
 if (!$connection) {
   die('Koneksi gagal: ' . mysqli_connect_error());
+} elseif ($connection) {
+  echo 'Koneksi berhasil';
 }
-
-echo 'Koneksi berhasil';
