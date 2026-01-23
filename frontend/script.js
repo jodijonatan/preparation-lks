@@ -1,1 +1,9 @@
-const button = document.getElementsByClassName("button");
+let angka = document.getElementByClassName("angka");
+
+function tambah() {
+  angka++;
+}
+
+function kurang() {
+  angka--;
+}
